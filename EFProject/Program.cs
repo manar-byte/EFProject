@@ -48,6 +48,11 @@ namespace EFProject
             //Customer_Movie r8 = new() { CustomerId = 1, MovieId = 5 };
             //db.Customer_Movies.AddRange(r4, r5, r6,r7,r8);
             //db.SaveChanges();
+            Customer_Movie r9 = new() { CustomerId = 1, MovieId = 3 };
+            Customer_Movie r10 = new() { CustomerId = 2, MovieId = 2 };
+            Customer_Movie r11 = new() { CustomerId = 4, MovieId = 5 };
+            db.Customer_Movies.AddRange(r9, r10, r11);
+            db.SaveChanges();
 
 
         }
